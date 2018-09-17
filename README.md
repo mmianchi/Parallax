@@ -1,3 +1,3 @@
-Parallax Website With HTML & CSS
+Parallax Responsove Website With HTML & CSS
 
  https://mmianchi.github.io/Parallax/.
