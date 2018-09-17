@@ -41,19 +41,33 @@ section {
 }
 
 .ptext {
-  /* background:red;
-  display: inline-block;
-  text-align: center; */
   position: absolute;
+  width:100%;
   top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 5px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
 
-.border {
-   background: #36322e;
+.ptext .border {
+   background: #131211;
    color: white;
    padding: 20px 40px;
-   font-size: 2rem;
-   border-radius: 5px;
+}
+
+.ptext .trans {
+ background: transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+  .ptext .border {
+    font-size: 17px;
+    padding: 20px;
+  }
+
 }
